@@ -1,0 +1,46 @@
+class Pessoa{
+    nome: string 
+    CPf: string 
+    idade: string 
+
+  
+  construtor(nome:string, CPF:string, idade:string){
+    this.nome = nome
+    this.nome = CPF
+    this.nome = idade
+  }
+    
+    cadastrar(){
+    console.log("cadastrar Pessoa")
+    }
+}
+
+class Funcionario extends Pessoa {
+    funcao: string
+    horario: string
+    salario: string
+    
+    construtor(funcao:string, horario:string, salario:string){
+    super(nome,CPF,idade)
+    this.Funcionario = funcao
+    this.Funcionario = horario
+    this.Funcionario = salario
+    }
+}
+
+let secretaria = new Funcionario ("Carol",06967571177,23,secretaria,07:00 as 17:00,1500)
+
+class Professor extends Pessoa {
+    materia: string
+    horario: string
+    salario: string
+
+    construtor(funcao:string, horario:string, salario:string){
+    super(nome,CPF,idade)
+    this.Funcionario = funcao
+    this.Funcionario = horario
+    this.Funcionario = salario
+    }
+}
+let filosofia = new Funcionario ("Carlos",06967571177,30,
+,07:00 as 17:00,1500)
